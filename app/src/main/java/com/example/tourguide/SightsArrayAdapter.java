@@ -26,15 +26,14 @@ public class SightsArrayAdapter extends ArrayAdapter<Sight> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View itemView = convertView;
-        if (itemView == null)
-            itemView = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
+        if (convertView == null)
+            convertView = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
 
-        ImageView iv = itemView.findViewById(R.id.iv);
-        TextView nameTV = itemView.findViewById(R.id.name_tv);
-        TextView descTV = itemView.findViewById(R.id.desc_tv);
-        TextView ratingTV = itemView.findViewById(R.id.rating_tv);
-        RatingBar ratingBar = itemView.findViewById(R.id.ratingBar);
+        ImageView iv = convertView.findViewById(R.id.iv);
+        TextView nameTV = convertView.findViewById(R.id.name_tv);
+        TextView descTV = convertView.findViewById(R.id.desc_tv);
+        TextView ratingTV = convertView.findViewById(R.id.rating_tv);
+        RatingBar ratingBar = convertView.findViewById(R.id.ratingBar);
 
         Sight sight = getItem(position);
         if (sight != null) {
@@ -50,9 +49,9 @@ public class SightsArrayAdapter extends ArrayAdapter<Sight> {
            Adjust padding for first and last item
          */
         int px = (int) context.getResources().getDimension(R.dimen.list_padding);
-        if (position == 0) itemView.setPadding(px, px * 2, px, px);
-        else if (position == getCount() - 1) itemView.setPadding(px, px, px, px * 2);
+        if (position == 0) convertView.setPadding(px, px * 2, px, px);
+        else if (position == getCount() - 1) convertView.setPadding(px, px, px, px * 2);
 
-        return itemView;
+        return convertView;
     }
 }
