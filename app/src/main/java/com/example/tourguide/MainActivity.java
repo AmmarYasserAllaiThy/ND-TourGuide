@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.tourguide.adapters.CategoriesFragmentAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 

@@ -1,4 +1,4 @@
-package com.example.tourguide;
+package com.example.tourguide.fragments;
 
 import android.annotation.SuppressLint;
 import android.content.res.TypedArray;
@@ -9,6 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.tourguide.R;
+import com.example.tourguide.model.Sight;
+import com.example.tourguide.adapters.SightsArrayAdapter;
 
 import java.util.ArrayList;
 

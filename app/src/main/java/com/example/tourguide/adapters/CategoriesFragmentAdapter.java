@@ -1,4 +1,4 @@
-package com.example.tourguide;
+package com.example.tourguide.adapters;
 
 import android.content.Context;
 
@@ -7,6 +7,14 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.example.tourguide.R;
+import com.example.tourguide.fragments.CopticFragment;
+import com.example.tourguide.fragments.IslamicFragment;
+import com.example.tourguide.fragments.MuseumFragment;
+import com.example.tourguide.fragments.ParkFragment;
+import com.example.tourguide.fragments.PharaonicFragment;
+import com.example.tourguide.fragments.UnclassifiedFragment;
 
 public class CategoriesFragmentAdapter extends FragmentPagerAdapter {
 

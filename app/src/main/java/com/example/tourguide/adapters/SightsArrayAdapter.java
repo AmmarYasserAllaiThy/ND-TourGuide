@@ -1,4 +1,4 @@
-package com.example.tourguide;
+package com.example.tourguide.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.tourguide.R;
+import com.example.tourguide.model.Sight;
 
 import java.util.ArrayList;
 

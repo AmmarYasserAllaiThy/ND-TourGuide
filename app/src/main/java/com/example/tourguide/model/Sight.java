@@ -1,4 +1,4 @@
-package com.example.tourguide;
+package com.example.tourguide.model;
 
 public class Sight {
 
@@ -7,26 +7,26 @@ public class Sight {
     private String desc;
     private float rate;
 
-    Sight(int imageResId, String name, String desc, float rate) {
+    public Sight(int imageResId, String name, String desc, float rate) {
         this.imageResId = imageResId;
         this.name = name;
         this.desc = desc;
         this.rate = rate;
     }
 
-    int getImageResId() {
+    public int getImageResId() {
         return imageResId;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    String getDesc() {
+    public String getDesc() {
         return desc;
     }
 
-    float getRate() {
+    public float getRate() {
         return rate;
     }
 

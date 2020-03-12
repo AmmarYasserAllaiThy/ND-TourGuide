@@ -1,4 +1,4 @@
-package com.example.tourguide;
+package com.example.tourguide.fragments;
 
 import android.annotation.SuppressLint;
 import android.content.res.TypedArray;
@@ -10,14 +10,18 @@ import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.tourguide.R;
+import com.example.tourguide.model.Sight;
+import com.example.tourguide.adapters.SightsArrayAdapter;
+
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CopticFragment extends Fragment {
+public class MuseumFragment extends Fragment {
 
-    public CopticFragment() {
+    public MuseumFragment() {
         // Required empty public constructor
     }
 
@@ -28,7 +32,7 @@ public class CopticFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         ArrayList<Sight> sights = new ArrayList<>();
-        TypedArray categoryTypedArray = getResources().obtainTypedArray(R.array.coptic);
+        TypedArray categoryTypedArray = getResources().obtainTypedArray(R.array.museums);
 
         for (int i = 0; i < categoryTypedArray.length(); i++) {
             int siteResId = categoryTypedArray.getResourceId(i, -1);
