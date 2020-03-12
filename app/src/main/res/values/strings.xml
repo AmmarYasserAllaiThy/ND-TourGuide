@@ -1,3 +1,443 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Cairo Tour Guide</string>
+    <string name="image">Image</string>
+    <string name="info">Info</string>
+    <string name="start_surfing">Start Surfing</string>
+    <string name="app_desc">Cairo (Arabic: القاهرة‎, pronounced, Al-Qahira) is the capital of Egypt and is one of the top largest cities in the <i>Middle East and Africa</i>. Its metropolitan area, with a population of over 20 million, is the <i>largest in Africa, the Arab world, and the Middle East, and the 15th-largest in the world</i>. Cairo is associated with <b>ancient Egypt</b>, as the famous Giza pyramid complex and the ancient city of Memphis are located in its geographical area. Located near the Nile Delta, Cairo was founded in <b>969 AD</b> by the Fatimid dynasty, but the land composing the present-day city was the site of ancient national capitals whose remnants remain visible in parts of Old Cairo. Cairo has long been a centre of the region\'s political and cultural life, and is titled \"<b>the city of a thousand minarets</b>\" for its preponderance of Islamic architecture. Cairo is considered a World City with a \"<b>Beta +</b>\" classification according to <b>GaWC</b>.
+        \nCairo has the oldest and largest <i>film and music industries</i> in the Arab world, as well as <u>the world\'s second-oldest institution of higher learning, Al-Azhar University</u>. Many international media, businesses, and organizations have regional headquarters in the city; the Arab League has had its headquarters in Cairo for most of its existence.</string>
+
+    <array name="titles">
+        <item>Pharaonic</item>
+        <item>Museum</item>
+        <item>Islamic</item>
+        <item>Coptic</item>
+        <item>Park</item>
+        <item>Unclassified</item>
+    </array>
+
+
+    <array name="pharaonic">
+        <item>@array/pyramid_of_djoser</item>
+        <item>@array/giza_necropolis</item>
+        <item>@array/city_of_the_dead</item>
+        <item>@array/pharaonic_village</item>
+    </array>
+
+    <array name="museums">
+        <item>@array/egyptian_museum</item>
+        <item>@array/coptic_museum</item>
+        <item>@array/museum_of_islamic_art_cairo</item>
+        <item>@array/national_museum_of_egyptian_civilization</item>
+        <item>@array/egyptian_national_military_museum</item>
+        <item>@array/egyptian_geological_museum</item>
+    </array>
+
+    <array name="islamic">
+        <item>@array/alazhar_mosque</item>
+        <item>@array/mosque_of_amr_ibn_alas</item>
+        <item>@array/salah_el_din_al_ayouby_citadel</item>
+        <item>@array/mosque_of_ibn_tulun</item>
+        <item>@array/alhussain_mosque</item>
+    </array>
+
+    <array name="coptic">
+        <item>@array/the_hanging_church</item>
+        <item>@array/church_of_st_george</item>
+        <item>@array/saint_marks_coptic_orthodox_cathedral</item>
+        <item>@array/saints_sergius_and_bacchus_church</item>
+        <item>@array/our_lady_of_fatima_cathedral</item>
+    </array>
+
+    <array name="parks">
+        <item>@array/alazhar_park</item>
+        <item>@array/giza_zoo</item>
+        <item>@array/orman_garden</item>
+        <item>@array/the_international_park</item>
+        <item>@array/el_andalos_park</item>
+    </array>
+
+    <array name="unclassified">
+        <item>@array/khan_elkhalili</item>
+        <item>@array/bab_zuweila</item>
+        <item>@array/qasr_el_nil_bridge</item>
+        <item>@array/tahrir_square</item>
+        <item>@array/sixth_of_october_panorama</item>
+        <item>@array/unknown_soldier_memorial</item>
+    </array>
+
+
+    <array name="egyptian_museum">
+        <item>@drawable/egyptian_museum</item>
+        <item>Egyptian Museum</item>
+        <item>The Museum of Egyptian Antiquities, known commonly as the Egyptian Museum or Museum of
+            Cairo, in Cairo, Egypt, is home to an extensive collection of ancient Egyptian
+            antiquities. It has 120,000 items, with a representative amount on display, the
+            remainder in storerooms. Built in 1901 by the Italian construction company
+            Garozzo-Zaffarani to a design by the French architect Marcel Dourgnon, the edifice is
+            one of the largest museums in the region. As of March 2019, the museum is open to the
+            public. In 2020 the museum is due to be superseded by the new Grand Egyptian Museum at
+            Giza
+        </item>
+        <item>4.5</item>
+    </array>
+    <array name="khan_elkhalili">
+        <item>@drawable/khan_el_khalili</item>
+        <item>Khan el-Khalili</item>
+        <item>Khan el-Khalili is a famous bazaar and souq in the historic center of Cairo, Egypt.
+            The bazaar district is one of Cairo\'s main attractions for tourists and Egyptians
+            alike.
+            It is also home to many Egyptian artisans and workshops involved in the production of
+            traditional crafts and souvenirs
+        </item>
+        <item>4.4</item>
+    </array>
+    <array name="pyramid_of_djoser">
+        <item>@drawable/pyramid_of_djoser</item>
+        <item>Pyramid of Djoser</item>
+        <item>The Pyramid of Djoser, or Step Pyramid, is an archaeological remain in the Saqqara
+            necropolis, Egypt, northwest of the city of Memphis. The 6-tier, 4-sided structure is
+            the earliest colossal stone building in Egypt. It was built in the 27th century BC
+            during the Third Dynasty for the burial of Pharaoh Djoser by his vizier, Imhotep. The
+            pyramid is the central feature of a vast mortuary complex in an enormous courtyard
+            surrounded by ceremonial structures and decoration. The pyramid went through several
+            revisions and redevelopments of the original plan. The pyramid originally stood 62.5
+            metres tall, with a base of 109 m × 121 m and was clad in polished white limestone. The
+            step pyramid is considered to be the earliest large-scale cut stone construction,
+            although the nearby enclosure of Gisr el-Mudir predates the complex, and the South
+            American pyramids at Caral are contemporary. In March 2020, the pyramid was reopened for
+            visitors after 14-year restoration
+        </item>
+        <item>4.7</item>
+    </array>
+    <array name="giza_necropolis">
+        <item>@drawable/giza_necropolis</item>
+        <item>Giza Necropolis</item>
+        <item>The Giza pyramid complex, also called the Giza Necropolis, is the sight on the Giza
+            Plateau in Greater Cairo, Egypt that includes the Great Pyramid of Giza, the Pyramid of
+            Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and
+            the Great Sphinx of Giza. All were built during the Fourth Dynasty of the Old Kingdom of
+            Ancient Egypt. The sight also includes several cemeteries and the remains of a workers\'
+            village. The sight is at the edges of the Western Desert, approximately 9 km west of the
+            Nile River in the city of Giza, and about 13 km southwest of the city centre of Cairo.
+            The Great Pyramid and the Pyramid of Khafre are the largest pyramids built in ancient
+            Egypt, and they have historically been common as emblems of ancient Egypt in the Western
+            imagination. They were popularised in Hellenistic times, when the Great Pyramid was
+            listed by Antipater of Sidon as one of the Seven Wonders of the World. It is by far the
+            oldest of the ancient Wonders and the only one still in existence
+        </item>
+        <item>4.6</item>
+    </array>
+    <array name="salah_el_din_al_ayouby_citadel">
+        <item>@drawable/salah_el_din_al_ayouby_citadel</item>
+        <item>Salah El Din Al Ayouby Citadel</item>
+        <item>The Citadel of Cairo or Citadel of Saladin is a medieval Islamic-era fortification in
+            Cairo, Egypt, built by Salah ad-Din and further developed by subsequent Egyptian rulers.
+            It was the seat of government in Egypt and the residence of its rulers for nearly 700
+            years from the 13th to the 19th centuries. Its location on a promontory of the Mokattam
+            hills near the center of Cairo commands a strategic position overlooking the city and
+            dominating its skyline. At the time of its construction, it was among the most
+            impressive and ambitious military fortification projects of its time. It is now a
+            preserved historic sight, including mosques and museums. In addition to the initial
+            Ayyubid-era construction begun by Saladin in 1176, the Citadel underwent major
+            development during the Mamluk Sultanate that followed, culminating with the construction
+            projects of Sultan al-Nasir Muhammad in the 14th century. In the first half of the 19th
+            century Muhammad Ali Pasha demolished many of the older buildings and built new palaces
+            and monuments all across the sight, giving it much of its present form.
+        </item>
+        <item>4.5</item>
+    </array>
+    <array name="the_hanging_church">
+        <item>@drawable/the_hanging_church</item>
+        <item>The Hanging Church</item>
+        <item>Saint Virgin Mary\'s Coptic Orthodox Church, also known as The Hanging Church is one
+            of the oldest churches in Egypt and the history of a church on this sight dates to the
+            third
+            century. It belongs to the Coptic Orthodox Church of Alexandria. The Hanging Church is
+            named for its location above a gatehouse of Babylon Fortress, the Roman fortress in
+            Coptic Cairo; its nave is suspended over a passage. The church is approached by
+            twenty-nine steps; early travelers to Cairo dubbed it \"the Staircase Church\". The land
+            surface has risen by some six metres since the Roman period so the Roman tower is mostly
+            buried below ground, reducing the visual impact of the church\'s elevated position. The
+            entrance from the street is through iron gates under a pointed stone arch. The
+            nineteenth-century facade with twin bell towers is then seen beyond a narrow courtyard
+            decorated with modern art biblical designs. Up the steps and through the entrance is a
+            further small courtyard leading to the eleventh-century outer porch.
+        </item>
+        <item>4.6</item>
+    </array>
+    <array name="coptic_museum">
+        <item>@drawable/coptic_museum</item>
+        <item>Coptic Museum</item>
+        <item>The Coptic Museum is a museum in Coptic Cairo, Egypt with the largest collection of
+            Egyptian Christian artifacts in the world. It was founded by Marcus Simaika in 1908 to
+            house Coptic antiquities. The museum traces the history of Egypt from its beginnings to
+            the present day. It was erected on 8,000 square meter land offered by the Coptic
+            Orthodox Church of Alexandria, under the guardianship of Pope Cyril V. The Coptic museum
+            houses the world\'s most important examples of Coptic art.
+        </item>
+        <item>4.5</item>
+    </array>
+    <array name="alazhar_park">
+        <item>@drawable/al_azhar_park</item>
+        <item>Al-Azhar Park</item>
+        <item>Al-Azhar Park is a public park located in Cairo, Egypt. Among several honors, this
+            park is listed as one of the world\'s sixty great public spaces by the Project for
+            Public
+            Spaces. The park was created by the Historic Cities Support Programme of the Aga Khan
+            Trust for Culture, an entity of the Aga Khan Development Network. The park, developed at
+            a cost in excess of USD $30 million, its money was a gift to Cairo from Agha Khan the
+            Sixth, a descendant of a Fatimid Caliph. The park project, a great urbanism initiative,
+            included: the development of the park archeology involving a 12th-century Ayyubid wall
+            historic building rehabilitation several quality of life improvement initiatives
+            requiring skills training, area rehabilitation, microfinance, and support in the areas
+            of health and education, among others
+        </item>
+        <item>4.4</item>
+    </array>
+    <array name="tahrir_square">
+        <item>@drawable/tahrir_square</item>
+        <item>Tahrir Square</item>
+        <item>Tahrir Square, also known as "Martyr Square", is a major public town square in
+            downtown Cairo, Egypt. The square has been the location and focus for political
+            demonstrations in Cairo, most notably those that led to the 2011 Egyptian revolution and
+            the resignation of President Hosni Mubarak
+        </item>
+        <item>4.4</item>
+    </array>
+    <array name="city_of_the_dead">
+        <item>@drawable/city_of_the_dead</item>
+        <item>City of the Dead</item>
+        <item>The City of the Dead, or Cairo Necropolis, also referred to as the Qarafa, is a series
+            of vast Islamic-era necropolises and cemeteries on the edges of Historic Cairo, in
+            Egypt. They extend to the north and to the south of the Cairo Citadel, below the
+            Mokattam Hills and outside the historic city walls, covering an area roughly 4 miles
+            long. They are included in the UNESCO World Heritage Site of "Historic Cairo"
+        </item>
+        <item>3.9</item>
+    </array>
+    <array name="mosque_of_ibn_tulun">
+        <item>@drawable/mosque_of_ibn_tulun</item>
+        <item>Mosque of Ibn Tulun</item>
+        <item>The Mosque of Ibn Tulun is located in Cairo, Egypt. It is the oldest mosque in Egypt
+            and Africa surviving in its full original form, and is the largest mosque in Cairo in
+            terms of land area. Since Ibn Tulun is an open space, it brings in a lot of sun and
+            shadows. It is built around an open square courtyard which allows natural light to
+            travel through. Ibn tulun mosque features Samarra style- its decorations being created
+            from carved stucco and wood.This mosque is a popular tourist attraction
+        </item>
+        <item>4.7</item>
+    </array>
+    <array name="pharaonic_village">
+        <item>@drawable/pharaonic_village</item>
+        <item>Pharaonic Village</item>
+        <item>Living museum of ancient Egyptian life</item>
+        <item>4.2</item>
+    </array>
+    <array name="alazhar_mosque">
+        <item>@drawable/al_azhar_mosque</item>
+        <item>Al-Azhar Mosque</item>
+        <item>Al-Azhar Mosque, known simply in Egypt as Al-Azhar, is an Egyptian mosque in Islamic
+            Cairo. Al-Mu\'izz li-Din Allah of the Fatimid dynasty commissioned its construction for
+            the newly established capital city in 970. Its name is usually thought to allude to the
+            Islamic prophet Muhammad\'s daughter Fatimah, a revered figure in Islam who was given
+            the
+            title az-Zahrāʾ. It was the first mosque established in Cairo, a city that has since
+            gained the nickname "the City of a Thousand Minarets"
+        </item>
+        <item>4.8</item>
+    </array>
+    <array name="saints_sergius_and_bacchus_church">
+        <item>@drawable/saints_sergius_and_bacchus_church</item>
+        <item>Saints Sergius and Bacchus Church</item>
+        <item>Saints Sergius and Bacchus Church, also known as Abu Serga, in Coptic Cairo is one of
+            the oldest Coptic churches in Egypt, dating back to the 4th century
+        </item>
+        <item>4.7</item>
+    </array>
+    <array name="bab_zuweila">
+        <item>@drawable/bab_zuweila</item>
+        <item>Bab Zuweila</item>
+        <item>Bab Zuweila is one of three remaining gates in the walls of the Old City of Cairo, the
+            capital of Egypt. It was also known as Bawabbat al-Mitwali during the Ottoman period,
+            and is sometimes spelled Bab Zuwayla. It is considered one of the major landmarks of the
+            city and is the last remaining southern gate from the walls of Fatimid Cairo in the 11th
+            and 12th century. Its name comes from Bab, meaning "gate", and Zuwayla, the name of an
+            ethnic group recruited into the Fatimid army from the town of Zuwayla in the Fezzan.
+        </item>
+        <item>4.5</item>
+    </array>
+    <array name="giza_zoo">
+        <item>@drawable/giza_zoo</item>
+        <item>Giza Zoo</item>
+        <item>The Giza Zoo is a zoological garden in Giza, Egypt. It is one of the few green areas
+            in the city, and includes Giza\'s largest park. The zoo covers about 80 acres, and is
+            home to many endangered species, as well as a selection of endemic fauna. The first to
+            be built in the Middle East, rare species have been successfully bred in the zoo -
+            including the first California sea lion to be born in the region
+        </item>
+        <item>3.8</item>
+    </array>
+    <array name="museum_of_islamic_art_cairo">
+        <item>@drawable/museum_of_islamic_art_cairo</item>
+        <item>Museum of Islamic Art Cairo</item>
+        <item>The Museum of Islamic Art in Cairo, Egypt is considered one of the greatest in the
+            world, with its exceptional collection of rare woodwork and plaster artefacts, as well
+            as metal, ceramic, glass, crystal, and textile objects of all periods, from all over the
+            Islamic world
+        </item>
+        <item>4.6</item>
+    </array>
+    <array name="alhussain_mosque">
+        <item>@drawable/al_hussain_mosque</item>
+        <item>Al-Hussain Mosque</item>
+        <item>The-Hussein Mosque is a mosque and mausoleum originally built in 1154, then later
+            reconstructed in 1874. The mosque is located in Cairo, Egypt, near the Khan El-Khalili
+            bazaar in the area known as Al-Hussain. It is considered to be one of the holiest
+            Islamic sights in Egypt and named after Prophet Muhammad\'s grandson, Hussain ibn Ali.
+            Some Shia Muslims believe that Hussain\'s head is buried on the grounds of the mosque
+            where the mausoleum is located today and considered to be what is left of the Fatimid
+            architecture in the building
+        </item>
+        <item>4.6</item>
+    </array>
+    <array name="mosque_of_amr_ibn_alas">
+        <item>@drawable/mosque_of_amr_ibn_al_as</item>
+        <item>Mosque of Amr ibn al-As</item>
+        <item>The Mosque of Amr ibn al-As, also called the Mosque of Amr, was originally built in
+            641–642 AD, as the center of the newly founded capital of Egypt, Fustat. The original
+            structure was the first mosque ever built in Egypt and the whole of Africa. Through the
+            twentieth century, it was the fourth largest mosque in the Islamic world. The location
+            for the mosque was the sight of the tent of the commander of the Muslim army, general
+            Amr
+            ibn al-As
+        </item>
+        <item>4.7</item>
+    </array>
+    <array name="church_of_st_george">
+        <item>@drawable/church_of_st_george</item>
+        <item>Church of St. George</item>
+        <item>The Church of St. George is a Greek Orthodox church within the Babylon Fortress in
+            Coptic Cairo. It is part of the Holy Patriarchal Monastery of St George under the Greek
+            Orthodox Patriarchate of Alexandria and all Africa. The church dates back to the 10th
+            century. The current structure was rebuilt following a 1904 fire, construction was
+            finished in 1909. Since 2009, the monastery\'s hegumen has had the rank of bishop with
+            title Bishop Babylonos.
+        </item>
+        <item>4.8</item>
+    </array>
+    <array name="orman_garden">
+        <item>@drawable/orman_garden</item>
+        <item>Orman Garden</item>
+        <item>The Orman Garden is one of the most famous Botanical gardens in Egypt. It is located
+            at Giza, in Cairo. It dates back to 1875 and the reign of Khedive Isma\'il Pasha who
+            established the garden on a larger sight than it presently occupies as part of the
+            Palace
+            of the Khedive. It became a public botanical garden in 1910/1917 and put under the
+            Ministry of Agriculture management
+        </item>
+        <item>4.2</item>
+    </array>
+    <array name="qasr_el_nil_bridge">
+        <item>@drawable/qasr_el_nil_bridge</item>
+        <item>Qasr El Nil Bridge</item>
+        <item>The Qasr El Nil Bridge, also commonly spelled Kasr El Nil Bridge, is a historic
+            structure dating from 1931 which replaced the first bridge to span the Nile River in
+            central Cairo, Egypt. It connects Tahrir Square in downtown Cairo to the modern Cairo
+            Opera complex toward the southern end of Gezira Island. At the bridge\'s east and west
+            approaches are four famous large bronze lion statues; they are late 19th-century works
+            by Henri Alfred Jacquemart, French sculptor and animalier. The newer and wider 6th
+            October Bridge parallels its route 0.8 kilometres just to the north
+        </item>
+        <item>4.5</item>
+    </array>
+    <array name="national_museum_of_egyptian_civilization">
+        <item>@drawable/national_museum_of_egyptian_civilization</item>
+        <item>National Museum of Egyptian Civilization</item>
+        <item>The National Museum of Egyptian Civilization is a large museum in the ancient city of
+            Fustat, now part of Cairo, Egypt. The museum partially opened in February 2017 and will
+            display a collection of 50,000 artefacts, presenting Egyptian civilization from
+            prehistoric times to the present day
+        </item>
+        <item>4.4</item>
+    </array>
+    <array name="the_international_park">
+        <item>@drawable/the_international_park</item>
+        <item>The International Park</item>
+        <item>City park</item>
+        <item>4.0</item>
+    </array>
+    <array name="egyptian_national_military_museum">
+        <item>@drawable/egyptian_national_military_museum</item>
+        <item>Egyptian National Military Museum</item>
+        <item>The Egyptian National Military Museum is the official museum of the Egyptian Army
+        </item>
+        <item>4.3</item>
+    </array>
+    <array name="el_andalos_park">
+        <item>@drawable/el_andalos_park</item>
+        <item>El Andalos park</item>
+        <item>Park</item>
+        <item>3.9</item>
+    </array>
+    <array name="sixth_of_october_panorama">
+        <item>@drawable/sixth_of_october_panorama</item>
+        <item>6th of October Panorama</item>
+        <item>The 6th of October War Panorama is a museum and memorial to the 1973 October war,
+            located in Heliopolis, Cairo. Constructed over an area of 7.5 feddans, it was
+            inaugurated on 5 October 1989 by former Egyptian president Hosni Mubarak. It was built
+            as a cylindrical fort-like building molded in Islamic architectural style with partial
+            assistance from a group of North Korean architects and is run by the Egyptian National
+            Military Museums Department
+        </item>
+        <item>4.4</item>
+    </array>
+    <array name="unknown_soldier_memorial">
+        <item>@drawable/unknown_soldier_memorial</item>
+        <item>Unknown Soldier Memorial</item>
+        <item>Many Unknown Soldier Memorials for Egyptian and Arab soldiers were constructed inside
+            and outside Egypt. The most famous is the one in Cairo. The Unknown Soldier Memorial in
+            Cairo is a pyramid-shaped monument in Nasr City. Its construction was ordered by
+            president Anwar Sadat in 1974 in honour of Egyptians and Arabs who lost their lives in
+            the 1973 October War. It was inaugurated in October 1975. The sight was also chosen for
+            the president\'s tomb after his assassination in October 1981
+        </item>
+        <item>4.4</item>
+    </array>
+    <array name="saint_marks_coptic_orthodox_cathedral">
+        <item>@drawable/saint_marks_coptic_orthodox_cathedral</item>
+        <item>Saint Mark\'s Coptic Orthodox Cathedral</item>
+        <item>St. Mark\'s Coptic Orthodox Cathedral is a Coptic church located in the Abbassia
+            District in Cairo, Egypt. The cathedral is the Seat of the Coptic Orthodox Pope. It was
+            built during the time when Pope Cyril VI of Alexandria was Pope of the Coptic Orthodox
+            Church, and was inaugurated by him in 1969. The church is dedicated to St Mark the
+            Evangelist, an apostle of Jesus and founder of the Coptic Church. Relics of his life are
+            kept inside. It was until 2019 by far the largest cathedral in Africa and the Middle
+            East
+        </item>
+        <item>4.6</item>
+    </array>
+    <array name="egyptian_geological_museum">
+        <item>@drawable/egyptian_geological_museum</item>
+        <item>Egyptian Geological Museum</item>
+        <item>The Egyptian Geological Museum is a museum in Cairo, Egypt. The museum was established
+            in 1904 as part of the Egyptian Geological Survey, which had been started in 1896 under
+            the direction of the Khedive Ismail. The museum was the first of its kind in the Middle
+            East and the African continent
+        </item>
+        <item>4.0</item>
+    </array>
+    <array name="our_lady_of_fatima_cathedral">
+        <item>@drawable/our_lady_of_fatima_cathedral</item>
+        <item>Our Lady of Fatima Cathedral</item>
+        <item>The Cathedral of Our Lady of Fatima or just Chaldean Catholic Cathedral in Cairo is a
+            religious building that is affiliated with the Catholic Church and is located in the
+            city of Cairo, the capital of the African country of Egypt. It is a temple that follows
+            the Chaldean or Eastern Syriac Rite in full communion with the Pope in Rome. It
+            functions as the main church of the Diocese or Chaldean Eparchy of Cairo which was
+            elevated to its current status in 1980 by Pope John Paul II. Currently seat vacant since
+            1993 is also a Catholic basilica by decision of the Holy See
+        </item>
+        <item>4.2</item>
+    </array>
+
 </resources>

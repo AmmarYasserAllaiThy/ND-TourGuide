@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/list_padding">
+
+    <ImageView
+        android:id="@+id/iv"
+        style="@style/ItemV"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        style="@style/NameTV" />
+
+    <TextView
+        android:id="@+id/desc_tv"
+        style="@style/DescTV" />
+
+    <RelativeLayout style="@style/ItemV">
+
+        <TextView
+            android:id="@+id/rating_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/ratingBar" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/list_padding"
+            android:max="5"
+            android:stepSize="0.1" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -6,6 +6,64 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bgWindow</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/bgWindow</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ItemV">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NameTV" parent="ItemV">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="DescTV" parent="NameTV">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+
+    <style name="Logo" parent="ItemV">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:contentDescription">@string/image</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">32dp</item>
+        <item name="android:src">@drawable/notebook2</item>
+    </style>
+
+    <style name="AppName" parent="ItemV">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppDescTV" parent="DescTV">
+        <item name="android:padding">16dp</item>
+        <item name="android:text">@string/app_desc</item>
+    </style>
+
+    <style name="StartBtn" parent="ItemV">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">@dimen/list_padding</item>
+        <item name="android:text">@string/start_surfing</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:background">@drawable/bg_start_btn</item>
+        <item name="android:elevation">10dp</item>
     </style>
 
 </resources>
